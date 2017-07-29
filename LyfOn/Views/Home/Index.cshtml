@@ -1,0 +1,497 @@
+﻿@model LyfOn.Models.LoginViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <title>Responsive Page Scrolling with jQuery and Bootstrap</title>
+    <link href="~/Content/Home.css" rel="stylesheet" />
+    <link href="~/Content/custom.css" rel="stylesheet" />
+    <style type="text/css">
+        /*.page-section#Learn {
+            background: url(../../Images/Learn.gif) center no-repeat;
+        }
+
+        .page-section#Product {
+            background: url(../../Images/Product.gif) bottom center no-repeat;
+        }
+
+        .page-section#Aboutus {
+            background: url(../../Images/Aboutus.gif) bottom center no-repeat;
+        }
+
+        .page-section#Contactus {
+            background: url(../../Images/Contactus.gif) top center no-repeat;
+        }
+
+        .page-section#Signin {
+            background: url(../../Images/Signin.gif) top center no-repeat;
+        }
+
+        .page-section#Provider {
+            background: url(../../Images/Provider.gif) top center no-repeat;
+        }
+
+        .page-section#Publisher {
+            background: url(../../Images/Publisher.gif) top center no-repeat;
+        }*/
+
+        .page-section.intro {
+            background: url(../../Images/header.jpg) top center no-repeat;
+        }
+
+        .dv-content {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 5%;
+        }
+
+        p {
+            color: #777;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 1.4;
+        }
+
+        body {
+            font-family: "Times New Roman";
+        }
+
+        strong {
+            Padding-top: 10px;
+            Padding-bottom: 10px;
+        }
+
+        .header-row {
+            height: 50px;
+            background: #eceff1;
+            border: 1px solid #cfd8dc;
+            border-radius: 4px;
+        }
+
+        .header-text {
+            font-size: 24px;
+            font-weight: bold;
+            color: #243238;
+            padding-top: 6px;
+            padding-left: 10px;
+        }
+
+
+        .image {
+            opacity: 1;
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: .5s ease;
+            backface-visibility: hidden;
+        }
+
+        .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            border-radius: 50px;
+        }
+
+        .img:hover .image {
+            opacity: 0.3;
+        }
+
+        .img:hover .middle {
+            opacity: 1;
+        }
+
+        .text {
+            background-color: #ddd;
+            color: black;
+            font-size: 16px;
+            padding: 16px 32px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="siteNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <span class="glyphicon glyphicon-fire"></span>
+                    LYFON
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active" style="padding-top:8px">
+                        <a href="#" class="scroll-top">Home</a>
+                    </li>
+                    <li style="padding-top:8px">
+                        <a href="#" class="scroll-link" data-id="Learn">Learn</a>
+                    </li>
+                    <li style="padding-top:8px">
+                        <a href="#" class="scroll-link" data-id="Product">Products</a>
+                    </li>
+                    <li class="dropdown" style="padding-top:8px">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+                        <ul class="dropdown-menu" aria-labelledby="about-us">
+                            <li><a href="#" class="scroll-link" data-id="Provider">Content Owner</a></li>
+                            <li><a href="#" class="scroll-link" data-id="Publisher">Organization</a></li>
+                        </ul>
+                    </li>
+                    <li style="padding-top:8px">
+                        <a href="#" class="scroll-link" data-id="Aboutus">About us</a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="scroll-link btn btn-default btn-primary" data-toggle="modal" data-target="#myModal">Signin</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="dvbody">
+
+        <div class="page-section intro">
+            <div class="container" style="padding-top:100px">
+                <div><h2 style="font-size: 2em;font-weight: 900;margin: 0 0 30px;text-shadow: 2px 2px 2px #000;">SUBMISSION AND CONTENT MANAGEMENT PARTNER</h2></div>
+
+                <hr />
+                <p style="font-size: 1.5em;font-weight: 900;margin: 0 0 30px;text-shadow: 2px 2px 2px #000;color:white" class="lead">Welcome</p>
+
+                <p style="font-size: 1em;font-weight: 900;margin: 0 0 30px;text-shadow: 2px 2px 2px #000;color:white" class="lead">Tell us more about you serve you better</p>
+                <div class="container" style="padding-top:100px">
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-4"><div class="well" style="background-color:rgba(247, 235, 235, 0.28)"><div>I'm a </div><div><a href="#" class="scroll-link btn btn-primary btn-md" data-id="Provider">CONTENT OWNER</a></div></div></div>
+                        <div class="col-md-4"><div class="well" style="background-color:rgba(247, 235, 235, 0.28)"><div>I'm an</div><div> <a href="#" class="scroll-link btn btn-primary btn-md" data-id="Publisher">ORGANIZATION</a></div></div></div>
+                        <div class="col-md-2"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="Provider" class="page-section">
+            <div class="container dv-content">
+
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="col-md-5"></div> <div class="col-md-2 "><img src="~/Images/LfyOn-logo.png" /></div><div class="col-md-5"></div>
+                    </div>
+                </div>
+                <h2>Provider</h2>
+                <p>Content Management and Distribution Partner</p>
+                <div class="row ">
+                    <div class="col-md-6 text-center"></div>
+                    <div class="col-md-6 text-center">
+                        <div style="font-size: 2em;font-weight: 900;"><strong>LyfOn for writer</strong></div>
+                        <div style="font-size: 1em;font-weight: 900;"><span>We Will Need....</span></div>
+                        <div style="padding:5px"><input type="text" placeholder="Your first name" class="text-line" /></div>
+                        <div style="padding:5px"><input type="text" placeholder="Your last name" class="text-line" /></div>
+                        <div style="padding:5px"><input type="text" placeholder="Your email address" class="text-line" /></div>
+                        <div style="padding:5px"><input type="text" placeholder="Your mobile number" class="text-line" /></div>
+                        <div style="padding-top:25px"><input type="button" value="GET STARTED" class="scroll-link btn btn-primary" style="width:50%" /></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="Publisher" class="page-section">
+            <div class="container dv-content">
+
+                <div class="row ">
+                    <div class="col-md-12 text-center">
+                        <div class="col-md-5"></div> <div class="col-md-2 "><img src="~/Images/LfyOn-logo.png" /></div><div class="col-md-5"></div>
+                    </div>
+                </div>
+                <h2>Publisher</h2>
+                <p>Content Management and Distribution Partner</p>
+                <div class="row">
+                    <div class="col-md-6 text-center"></div>
+                    <div class="col-md-6 text-center">
+                        <div style="font-size: 2em;font-weight: 900;"><strong>LyfOn for Publisher</strong></div>
+                        <div style="font-size: 1em;font-weight: 900;">We Will Need....</div>
+                        <div style="padding:5px"><input type="text" placeholder="Your first name" class="text-line" /></div>
+                        <div style="padding:5px"><input type="text" placeholder="Your last name" class="text-line" /></div>
+                        <div style="padding:5px"><input type="text" placeholder="Your email address" class="text-line" /></div>
+                        <div style="padding:5px"><input type="text" placeholder="Your mobile number" class="text-line" /></div>
+                        <div style="padding-top:25px"><input type="button" value="GET STARTED" class="scroll-link btn btn-primary" style="width:50%" /></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="Learn" class="page-section ">
+            <div class="container dv-content">
+                <div class="row header-row">
+                    <div class="header-text">Learn</div>
+                </div>
+                <div class="row" style="padding-top:10px">
+                    <div class="col-sm-6">
+                        <p>
+                            Learn with us how lyfon could bring a change in you or in your organization.
+                            <br />
+                            <br />
+                            <strong> How it works</strong>
+                            <br />
+                            <strong>Content Owners</strong>
+                            <br />
+                            Discover new oppurtunities and new topic everyday with lyfon.
+                            create any digital content be it a document, an audio, an image or even a high-resolution video, with just a click you get your content delivered to the best publisher in the market.
+                            not only that, lyfon allows you to track your application and get to know the result from the organization within the time limit specified. so, no more wait no more worries no more confusion just move on with lyfon.
+                        </p>
+                    </div>
+                    <div class="col-sm-6">
+                        <img class="img-responsive img-circle center-block" src="http://www.lingualearnenglish.com/blog/wp-content/uploads/2015/10/babies-learn-surprise-1024x688.jpg" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div style="padding-left: 15px;">
+                        <p>
+                            <br />
+                            <strong>Organization</strong>
+                            <br />
+                            You can now easily accept and review the content to make the decision and select the best content submitted to you.
+                            stop worrying about the huge email attachments and misunderstanding within your team. you can now communicate effectively and decide more easily.
+                            <br />
+                            <br />
+                            <strong>Advanced dynamic design forms</strong>
+                            <br />
+                            Our deign forms allows you to easily use the interface to create forms available to public. within a minute you can now post the calls for entry with the fully customizable options avaialble.
+                            you can now accept any digital cotnent in any format
+                            you can now create unlimited categories
+                            entire workflow is before you
+                            once contents are being continuosly submitted by the content owners, you will see them all in one central area. you can easily filter to look for the contents assigned to you or the ones have closer review deadline date this will ensure you'll never lose or miss a content or any data again.
+                            <br />
+                            <br /><strong>Reviewing contents</strong>
+                            <br />
+                            Reviewing is the most importment job for an organization. with lyfon you define how you want review to be carried out by your team, whether you want to just give a vote, add notes, labels, or have reviewers fill the custom review form created by the category owners.
+                            <br />
+                            <br />
+                            <strong>Realtime commucation with content owners</strong>
+                            <br />
+                            You can now track everything related to the content received, including any commucation received from the content owner.  there can be many cases when organization would directly send a communication to the owner and for this using lyfon you can use a variety of tools to keep in touch with the content owners throughout the submission and review process.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Product" class="page-section">
+            <div class="container dv-content">
+                <div class="row header-row">
+                    <div class="header-text">Product</div>
+                </div>
+                <div class="row" style="padding-top:10px">
+                    <div class="col-sm-6">
+                        <p>
+                            Our product is not just limited to the content providers and publishers. there are numerous use cases where our product could really be a time and money saver.
+                            here are some of the organization which can really be benfitted using lyfon
+                            <br />
+                            <br />
+                            <span><strong>Publishing</strong></span>
+                            <br />
+                            We ease the process of accepting and curating the content for publiction.
+                            without a customazable tool it is very difficult to managae the contents and it is very labour intensive. using different softwares to manage different content types such as document, image, audio and video are again costly and requires high range servers and technical knowledge. lyfon has centralized the submission, payment, and management platforms into a single online location. allow your content owners to easily submit in any medium, including documents, images, sound, video, and more; establish your team member accounts; and vote on and accept entries in one efficient and user-friendly place. all you need is a browser.
+                        </p>
+                    </div>
+                    <div class="col-sm-6">
+                        <img class="img-responsive img-circle center-block" src="https://www.opensourcealternative.org/wp-content/uploads/2014/03/microsoft_publisher_1-730x430.jpg" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div style="padding-left: 15px;">
+                        <p>
+                            <strong> Competition and Awards</strong>
+                            <br />
+                            With lyfon it is now easy to attract a large pool of talents for the competetion also easy to accept applicable fees, and choose the most qualified winner.
+                            competitions are a great way to engage your audience, helping you to attract publicity and to optionally generate income. however, they can be a big headache for the organizations that run them. without the right software, managing a contest can be a time and labor-intensive process. in considering these pain points, lyfon has centralized the submission, payment, and management platform for contest submissions into a single online location. allow your entrants to easily submit in any medium, including documents, images, sound, video, and more; establish your team member accounts; and vote on entries in one efficient and user-friendly place.
+                            <br />
+                            <br />
+                            <strong> Internal Application</strong>
+                            <br />
+                            lyfon could be the best tool to efficiently run your internal job workflow and review processes.
+                            you can easily simplify your internal review workflow by using lyfon. all your employees need is a browser in order to collaborate on a project in making decisions about which cover is best for the magzine or which design is best for an upcoming product, or deciding what user-generated content should go on your company’s website.  the ability to accept any type of file enables you to create a submission form for any media audio to video or even images and remember we secure all your data
+                            film and music submission
+                            film and music auditions were never this simple before
+                            join with us and you will find the real talents available in our country. our tool enables you to play any video or audio directly in your browser window, without the need of downloading the huge files. you can assign content review to different jurors at key stages of the jurying process, centralize your jurors’ reviews and rankings, and easily communicate with the content owners through our redily available email feature and response template.
+                            <br />
+                            <br />
+                            <strong> Non-profit Organization</strong>
+                            <br />
+                            fund raising and donors
+                            you can use lyfon for fund raising by creating categories for voluntary contributions of money or other resources, by requesting donations from individuals, businesses, charitable foundations, or governmental agencies.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Aboutus" class="page-section">
+            <div class="container dv-content">
+                <div class="row header-row">
+                    <div class="header-text">About Us</div>
+                </div>
+                <div class="row" style="padding-top:20px">
+                    <p>
+                        <strong>Pain brings the best in you</strong>
+                        <br />
+                        The idea for lyfon came about when my friend who is a great writer was having difficulties in getting her work published. she has to keep on contacting publisher, sending her work and wait for a long time ans sometimes even walk directly to the publisher’s office to just get to know whether it has been accepted or not. she couldn’t find a better platform in india to share and track her work with the publisher. this really frustrated her and that’s when this idea popped into her mind. she immediately shared this idea to me which i really liked and believed in her idea. analyzing deeply on her idea we actually understood there is a lot more we can add with this idea. immediately i shared the knowledge with my most valuable friends who trusted me and gave me support in building this tool for the content providers and the organization.
+                        <br />
+                        <br />
+                        <strong>Our team</strong>
+                        <br />
+                    </p>
+                    <div class="row" style="padding-top:10px">
+                        <div class="col-sm-2">
+                            <img class="img-responsive img-circle center-block image" src="~/Images/User.png" />
+                            <div style="text-align:center"><strong>Mr.Sairam Sankaran</strong> </div>
+                            <div class="middle text-center">
+                                <div class="text">Mr.Sairam Sankaran</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <img class="img-responsive img-circle center-block image" src="~/Images/User.png" />
+                            <div style="text-align:center"><strong>Mr.Celambarasan</strong> </div>
+                            <div class="middle text-center">
+                                <div class="text">Mr.Celambarasan</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <img class="img-responsive img-circle center-block image" src="~/Images/User.png" />
+                            <div style="text-align:center"><strong>Mr.Praveen</strong> </div>
+                            <div class="middle text-center">
+                                <div class="text">Mr.Praveen</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 img">
+                            <img class="img-responsive img-circle center-block image" src="~/Images/User.png" />
+                            <div style="text-align:center"><strong>Mr.Sivakumar</strong> </div>
+                            <div class="middle text-center">
+                                <div class="text">Mr.Sivakumar</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 img">
+                            <img class="img-responsive img-circle center-block image" src="~/Images/User.png" />
+                            <div style="text-align:center"><strong>Mr.Udhaya kumar</strong> </div>
+                            <div class="middle text-center">
+                                <div class="text">Mr.Udhaya kumar</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            @*<a href="#" class="scroll-top back-to-top">&uarr;</a>*@
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Sign in</h4>
+                    </div>
+                    <div class="modal-body">
+                        <section id="loginForm">
+                            @using (Html.BeginForm("Login", "Home", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+            {
+                                @Html.AntiForgeryToken()
+
+                                <div class="container-fluid">
+                                    <div class="row" style="margin-top: 3%;margin-bottom: 6%;">
+                                        <div>
+                                            <div class="col-sm-1 col-md-1 col-lg-1"></div>
+                                            <div class="col-sm-10 col-md-10 col-lg-10" style="border:1px solid #ddd;border-radius:5px">
+                                                <div class="input-group" style="height:50px">
+                                                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                                </div>
+                                                <div class="well">
+                                                    <div class="input-group">
+                                                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                                        @Html.TextBoxFor(m => m.UserName, new { @class = "form-control mandatory" })
+                                                    </div>
+
+                                                    <div class="input-group" style="padding-top:20px">
+                                                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                                        @Html.PasswordFor(m => m.Password, new { @class = "form-control mandatory" })
+                                                    </div>
+                                                </div>
+                                                <div style="padding-top:10px;padding-bottom:20px"><button type="submit" id="btnSubmit" class="btn btn-default btn-primary" style="width:100%">SignIn</button></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-1 col-md-1 col-lg-1"></div>
+                                    </div>
+                                </div>
+
+                            }
+                        </section>
+
+                    </div>                 
+                </div>
+
+            </div>
+        </div>
+
+        <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('.scroll-link').on('click', function (event) {
+                    event.preventDefault();
+                    var sectionID = $(this).attr("data-id");
+                    scrollToID('#' + sectionID, 750);
+                });
+                $('.scroll-top').on('click', function (event) {
+                    event.preventDefault();
+                    $('html, body').animate({ scrollTop: 0 }, 'slow');
+                });
+                $('#nav-toggle').on('click', function (event) {
+                    event.preventDefault();
+                    $('#main-nav').toggleClass("open");
+                });
+            });
+            function scrollToID(id, speed) {
+                var offSet = 50;
+                var targetOffset = $(id).offset().top - offSet;
+                var mainNav = $('#main-nav');
+                $('html,body').animate({ scrollTop: targetOffset }, speed);
+                if (mainNav.hasClass("open")) {
+                    mainNav.css("height", "1px").removeClass("in").addClass("collapse");
+                    mainNav.removeClass("open");
+                }
+            }
+            if (typeof console === "undefined") {
+                console = {
+                    log: function () { }
+                };
+            }
+        </script>
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        <script src="~/Scripts/custom.js"></script>
+    </div>
+
+</body>
+</html>

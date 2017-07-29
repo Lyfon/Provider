@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "DiscoverDetail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-12"><div style="padding-top:10px"><strong>ABC Private Limited</strong></div></div>
+        <hr />
+        <div class="col-12">
+            @using (Html.BeginForm("Submit", "Provider", FormMethod.Post))
+            {
+            <div class="form-group">
+                <label for="email">Author</label>
+                <input type="text" class="form-control" id="Author" placeholder="Author" name="Author">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Title</label>
+                <input type="text" class="form-control" id="Title" placeholder="Title" name="Title">
+            </div>
+                <div class="form-group">
+                    <label for="pwd">Abstract</label>
+                    <textarea class="form-control" rows="5" placeholder="Abstract" style="width: 80% !important;max-width: 80% !important;"></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="file" id="myFile" size="50" class="btn btn-default">
+                </div>
+
+                <input type="submit" value="Submit" class="btn btn-default" />
+        }
+    </div>
+</div>
+</div>
+
+
+

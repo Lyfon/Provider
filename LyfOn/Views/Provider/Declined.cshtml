@@ -1,0 +1,68 @@
+﻿@model List<LyfOnLibrary.Model.SubmissionView>
+
+@{
+    ViewBag.Title = "Declined";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var grid = new WebGrid(canPage: true, rowsPerPage: 10);
+    grid.Bind(source: Model, rowCount: ViewBag.Totalrecords, autoSortAndPage: false);
+}
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <div style="margin:15px"> <strong><span>List of Declined</span></strong></div>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <nav class="container-fluid">
+
+                <div class="collapse navbar-collapse pull-right">
+                    @using (Html.BeginForm("Declined", "Provider", FormMethod.Get, new { @class = "navbar-form navbar-left" }))
+                    {
+                        <div class="form-group">
+                            <input type="text" name="search" value="@ViewBag.search" class="form-control" placeholder="Search" />
+                        </div>
+
+                        <input type="submit" value="search" class="btn btn-default" />
+                    }
+                </div>
+            </nav>
+            <div class="grid-tbl">
+
+                @grid.Table(tableStyle: "table table-responsive",
+                         columns: grid.Columns(
+
+                                  grid.Column(columnName: "Submission", header: "Submission"),
+                                  grid.Column(columnName: "Publisher", header: "Publisher"),
+                                  grid.Column(columnName: "Category", header: "Category"),
+                                  grid.Column(columnName: "CreatedDate", header: "Submitted On"),
+                                  grid.Column(columnName: "DeclinedDate", header: "Decline On"),
+                                  grid.Column(header: "", format:@<text><a href="@Url.Action("Delete", "Provider")" class="btn btn-primary">Delete</a></text>))
+                           )
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+            </div>
+            <div class="col-sm-6">
+                <div>
+                    @if (Model != null && Model.Count > 0)
+                    {
+                        @grid.PagerList(mode: WebGridPagerModes.All, paginationStyle: "pagination")
+                    }
+                </div>
+            </div>
+            <div class="col-sm-3"></div>          
+        </div>
+        @Html.Hidden("dir", grid.SortDirection)
+        @Html.Hidden("col", grid.SortColumn)
+    </div>
+    <link href="~/Content/ProviderCss.css" rel="stylesheet" />
+</div>
+
+
+
+
+

@@ -1,0 +1,18 @@
+﻿.grid-tbl {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+    .grid-tbl > table > thead > tr {
+        background-color: cornflowerblue;
+        border: 1px solid cornflowerblue;
+    }
+
+    .grid-tbl > table > tbody > tr:hover {
+        background-color: #ddd;
+    }
+
+    .grid-tbl > table > thead > tr > th> a{
+        color:white;
+    }
+   

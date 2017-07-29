@@ -1,0 +1,62 @@
+﻿@model IEnumerable<LyfOnLibrary.Model.CategoryView>
+
+@{
+    ViewBag.Title = "Discovery";
+}
+
+
+<div class="container">
+
+    <div style="padding-bottom:40px">
+        <nav class="container-fluid">
+            <div class="collapse navbar-collapse pull-left">
+                <div style="padding-top:15px;"><strong> <span>Discover</span></strong></div>
+            </div>
+            <div class="collapse navbar-collapse pull-right">
+                @using (Html.BeginForm("Discover", "Provider", FormMethod.Get, new { @class = "navbar-form navbar-left" }))
+            {
+                    <div class="form-group">
+                        <input type="text" name="search" value="@ViewBag.search" class="form-control" placeholder="Search" />
+                    </div>
+
+                    <input type="submit" value="search" class="btn btn-default" />
+                }
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid">
+
+        @foreach (var item in Model)
+        {
+            <div class="row list-box" style="margin:1%">
+
+                <div class="col-sm-2 col-md-2 ">
+                    <div><a href="@Url.Action("DiscoverDetail", "Provider")"><strong>@Html.DisplayFor(modelItem => item.Category)</strong></a></div>
+                    <div>@Html.DisplayFor(modelItem => item.PublisherName)</div>
+                    <div>@Html.DisplayFor(modelItem => item.PublisherType)</div>
+                    <small class="text-muted">@Html.DisplayFor(modelItem => item.DeadLineDate)</small>
+                </div>
+                <div class="col-sm-10 col-md-10">
+                    <div>@Html.DisplayFor(modelItem => item.Description)</div>
+                    <div><small class="text-muted">@Html.DisplayFor(modelItem => item.CreatedDate)</small></div>
+                </div>
+          
+            </div>
+        }
+    </div>
+</div>
+<style>
+    .list-box {
+        display: block;
+        padding: 16px;
+        -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.04);
+        box-shadow: 0 1px 3px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.04);
+        -webkit-transition: box-shadow .3s ease-in-out;
+        transition: box-shadow .3s ease-in-out;
+        background-color: #fff;
+        -webkit-border-radius: 2px;
+        border-radius: 2px;
+        outline: none;
+    }
+</style>
+

@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top" style="background-color:#071e31">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("LyfOn", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse" style="background-color:#071e31">
+                @*<ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    </ul>*@
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="divider-vertical"></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <i class="glyphicon glyphicon-user icon-white"></i>
+                            @Session["UserName"].ToString()&nbsp;<b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li role="presentation" class="dropdown-header">Settings</li>
+
+                            <li>
+                                <a href="#profile-popup" data-toggle="modal">
+                                    <i class="glyphicon glyphicon-user"></i>
+                                    Profile
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="@Url.Action("Logout", "Home")" data-toggle="modal">
+                                    Logout
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="hubconnection"><a><i class="glyphicon glyphicon-circle"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 text-center navbar">
+            <div class="list-group panel">
+                <div class="side-menu"> <a href="@Url.Action("Discover", "Provider")">Discover</a></div>
+                <div>
+                    <a href="#MenuSubmission" class="list-group-item list-group-item-success"
+                       data-toggle="collapse" data-parent="#MainMenu" style="background-color:#071e31; color:white;">Submission</a>
+                </div>
+                <div class="in" id="MenuSubmission">
+                    <a href="@Url.Action("Submissions", "Provider")" class="list-group-item">All Subimission</a>
+                    <a href="@Url.Action("Inprogress", "Provider")" class="list-group-item">Inprogress</a>
+                    <a href="@Url.Action("Accepted", "Provider")" class="list-group-item">Accepted</a>
+                    <a href="@Url.Action("Declined", "Provider")" class="list-group-item">Declined</a>
+                    <a href="@Url.Action("Withdrawn", "Provider")" class="list-group-item">Withdrawn</a>
+                    <a href="@Url.Action("NotReviewed", "Provider")" class="list-group-item">NotReviewed</a>
+                </div>
+                <div class="side-menu"> <a href="@Url.Action("Following", "Provider")">Following</a></div>
+                <div class="side-menu"> <a href="@Url.Action("SavedDraft", "Provider")">SavedDraft</a></div>
+                <div style="padding-top:20px"><div class="side-menu" style="background-color: #333333"> <a href="@Url.Action("Publisher", "Provider")">Find Publisher</a></div></div>
+            </div>
+        </div>
+        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12 text-center" style="height: 500px">
+            <div class="container body-content">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-default navbar-fixed-bottom"></div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <style>
+        .side-menu {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            background-color: #071e31;
+            margin: 1px;
+            border-radius: 3px;
+        }
+
+        .export-excel {
+            background: url(../../Images/btn-excel.ico) no-repeat top left;
+            display: block;
+            width: 30px;
+            height: 30px;
+            text-indent: -9999px;
+        }
+
+        .side-menu > a {
+            color: white;
+            margin: 6px;
+        }
+    </style>
+
+
+</body>
+</html>

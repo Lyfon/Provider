@@ -1,0 +1,142 @@
+F:\LyfOn\LyfOn\bin\roslyn\csc.exe
+F:\LyfOn\LyfOn\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\LyfOn\LyfOn\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\LyfOn\LyfOn\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\LyfOn\LyfOn\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\LyfOn\LyfOn\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\LyfOn\LyfOn\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\LyfOn\LyfOn\bin\roslyn\System.Collections.Immutable.dll
+F:\LyfOn\LyfOn\bin\roslyn\System.Reflection.Metadata.dll
+F:\LyfOn\LyfOn\bin\roslyn\vbc.exe
+F:\LyfOn\LyfOn\bin\roslyn\VBCSCompiler.exe
+F:\LyfOn\LyfOn\bin\roslyn\VBCSCompiler.exe.config
+F:\LyfOn\LyfOn\bin\LyfOn.dll.config
+F:\LyfOn\LyfOn\bin\LyfOn.dll
+F:\LyfOn\LyfOn\bin\LyfOn.pdb
+F:\LyfOn\LyfOn\bin\Antlr3.Runtime.dll
+F:\LyfOn\LyfOn\bin\EntityFramework.dll
+F:\LyfOn\LyfOn\bin\EntityFramework.SqlServer.dll
+F:\LyfOn\LyfOn\bin\Microsoft.AspNet.Identity.Core.dll
+F:\LyfOn\LyfOn\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\LyfOn\LyfOn\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\LyfOn\LyfOn\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\LyfOn\LyfOn\bin\Microsoft.Owin.dll
+F:\LyfOn\LyfOn\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\LyfOn\LyfOn\bin\Microsoft.Owin.Security.Cookies.dll
+F:\LyfOn\LyfOn\bin\Microsoft.Owin.Security.dll
+F:\LyfOn\LyfOn\bin\Microsoft.Owin.Security.Facebook.dll
+F:\LyfOn\LyfOn\bin\Microsoft.Owin.Security.Google.dll
+F:\LyfOn\LyfOn\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\LyfOn\LyfOn\bin\Microsoft.Owin.Security.OAuth.dll
+F:\LyfOn\LyfOn\bin\Microsoft.Owin.Security.Twitter.dll
+F:\LyfOn\LyfOn\bin\Microsoft.Web.Infrastructure.dll
+F:\LyfOn\LyfOn\bin\Newtonsoft.Json.dll
+F:\LyfOn\LyfOn\bin\Owin.dll
+F:\LyfOn\LyfOn\bin\System.Web.Helpers.dll
+F:\LyfOn\LyfOn\bin\System.Web.Mvc.dll
+F:\LyfOn\LyfOn\bin\System.Web.Optimization.dll
+F:\LyfOn\LyfOn\bin\System.Web.Razor.dll
+F:\LyfOn\LyfOn\bin\System.Web.WebPages.Deployment.dll
+F:\LyfOn\LyfOn\bin\System.Web.WebPages.dll
+F:\LyfOn\LyfOn\bin\System.Web.WebPages.Razor.dll
+F:\LyfOn\LyfOn\bin\WebGrease.dll
+F:\LyfOn\LyfOn\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\LyfOn\LyfOn\bin\System.Web.Helpers.xml
+F:\LyfOn\LyfOn\bin\System.Web.Mvc.xml
+F:\LyfOn\LyfOn\bin\System.Web.Optimization.xml
+F:\LyfOn\LyfOn\bin\System.Web.Razor.xml
+F:\LyfOn\LyfOn\bin\System.Web.WebPages.xml
+F:\LyfOn\LyfOn\bin\System.Web.WebPages.Deployment.xml
+F:\LyfOn\LyfOn\bin\System.Web.WebPages.Razor.xml
+F:\LyfOn\LyfOn\bin\Antlr3.Runtime.pdb
+F:\LyfOn\LyfOn\bin\Newtonsoft.Json.xml
+F:\LyfOn\LyfOn\bin\EntityFramework.xml
+F:\LyfOn\LyfOn\bin\EntityFramework.SqlServer.xml
+F:\LyfOn\LyfOn\bin\Microsoft.AspNet.Identity.Core.xml
+F:\LyfOn\LyfOn\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\LyfOn\LyfOn\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\LyfOn\LyfOn\bin\Microsoft.Owin.xml
+F:\LyfOn\LyfOn\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\LyfOn\LyfOn\bin\Microsoft.Owin.Security.xml
+F:\LyfOn\LyfOn\bin\Microsoft.Owin.Security.Facebook.xml
+F:\LyfOn\LyfOn\bin\Microsoft.Owin.Security.Cookies.xml
+F:\LyfOn\LyfOn\bin\Microsoft.Owin.Security.OAuth.xml
+F:\LyfOn\LyfOn\bin\Microsoft.Owin.Security.Google.xml
+F:\LyfOn\LyfOn\bin\Microsoft.Owin.Security.Twitter.xml
+F:\LyfOn\LyfOn\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\LyfOn\LyfOn\obj\Debug\LyfOn.csprojResolveAssemblyReference.cache
+F:\LyfOn\LyfOn\obj\Debug\LyfOn.dll
+F:\LyfOn\LyfOn\obj\Debug\LyfOn.pdb
+F:\LyfOn\LyfOn\bin\LyfOnLibrary.dll
+F:\LyfOn\LyfOn\bin\LyfOnLibrary.pdb
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\roslyn\csc.exe
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\roslyn\System.Collections.Immutable.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\roslyn\System.Reflection.Metadata.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\roslyn\vbc.exe
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\roslyn\VBCSCompiler.exe
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\roslyn\VBCSCompiler.exe.config
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\LyfOn.dll.config
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\LyfOn.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\LyfOn.pdb
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\Antlr3.Runtime.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\EntityFramework.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\EntityFramework.SqlServer.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\LyfOnLibrary.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\Microsoft.Owin.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\Microsoft.Owin.Security.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\Microsoft.Owin.Security.Google.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\Microsoft.Web.Infrastructure.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\Newtonsoft.Json.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\Owin.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\System.Web.Helpers.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\System.Web.Mvc.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\System.Web.Optimization.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\System.Web.Razor.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\System.Web.WebPages.Deployment.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\System.Web.WebPages.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\System.Web.WebPages.Razor.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\WebGrease.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\LyfOnLibrary.pdb
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\System.Web.Helpers.xml
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\System.Web.Mvc.xml
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\System.Web.Optimization.xml
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\System.Web.Razor.xml
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\System.Web.WebPages.xml
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\System.Web.WebPages.Deployment.xml
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\System.Web.WebPages.Razor.xml
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\Antlr3.Runtime.pdb
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\Newtonsoft.Json.xml
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\EntityFramework.xml
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\EntityFramework.SqlServer.xml
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\Microsoft.Owin.xml
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\Microsoft.Owin.Security.xml
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\Microsoft.Owin.Security.Google.xml
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\obj\Debug\LyfOn.csprojResolveAssemblyReference.cache
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\obj\Debug\LyfOn.dll
+E:\Lyf On\Lyfon project\LyfOn_V2\LyfOn_v2\LyfOn\LyfOn\obj\Debug\LyfOn.pdb

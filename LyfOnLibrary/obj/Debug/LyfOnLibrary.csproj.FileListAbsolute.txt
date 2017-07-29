@@ -1,0 +1,5 @@
+F:\LyfOn\LyfOnLibrary\bin\Debug\LyfOnLibrary.dll
+F:\LyfOn\LyfOnLibrary\bin\Debug\LyfOnLibrary.pdb
+F:\LyfOn\LyfOnLibrary\obj\Debug\LyfOnLibrary.dll
+F:\LyfOn\LyfOnLibrary\obj\Debug\LyfOnLibrary.pdb
+F:\LyfOn\LyfOnLibrary\obj\Debug\LyfOnLibrary.csprojResolveAssemblyReference.cache

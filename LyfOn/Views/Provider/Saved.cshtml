@@ -1,0 +1,50 @@
+﻿@model IEnumerable<LyfOnLibrary.Model.ProviderModels.SavedView>
+
+@{
+    ViewBag.Title = "Saved";
+}
+
+<div class="container">
+    <div class="row" style="padding-bottom:40px">
+        <div class="col-md-7">
+            <span class="navbar-brand">Saved</span>
+        </div>
+        <div class="col-md-3">
+            <form class="navbar-form" role="search">
+                <div class="input-group add-on">
+                    <input class="form-control" placeholder="Search" name="srch-term" id="srch-term" type="text">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-2"><p>@Html.ActionLink("Export", "AcceptedExport", "Provider", null, new { @class = "export-excel" })</p>  </div>
+    </div>
+
+    <div class="row " style="border:1px solid #dddddd;background-color:cornflowerblue;padding-bottom:10px">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-2"> Submission</div>
+        <div class="col-sm-3"> Publisher</div>
+        <div class="col-sm-2"> Category</div>
+        <div class="col-sm-2"> Submission Date</div>
+        <div class="col-sm-2"> Saved Date</div>
+    </div>
+    @foreach (var item in Model)
+    {
+        <div class="row" style="border-bottom:1px solid #dddddd;padding-bottom:10px;padding-top:5px ">
+            <div class="col-sm-1">@Html.CheckBoxFor(modelItem => item.ChkStatus)</div>
+            <div class="col-sm-2">@Html.DisplayFor(modelItem => item.FileName)</div>
+            <div class="col-sm-3">@Html.DisplayFor(modelItem => item.Publisher)</div>
+            <div class="col-sm-2">@Html.DisplayFor(modelItem => item.Category)</div>
+            <div class="col-sm-2">@Html.DisplayFor(modelItem => item.CreatedDate)</div>
+            <div class="col-sm-2">@Html.DisplayFor(modelItem => item.SavedDate)</div>
+        </div>
+
+    }
+    <div class="row" style="padding-top:10px">
+        <div class="col-md-11"></div>
+        <div class="col-md-1"><a href="@Url.Action("Delete", "Provider")" class="btn btn-primary">Delete</a></div>
+    </div>
+</div>
+
